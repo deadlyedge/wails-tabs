@@ -1,0 +1,6 @@
+[database]
+baseFolder = 'db'
+
+[history]
+lastSourceFolder = ['z:/','f:/photo']
+

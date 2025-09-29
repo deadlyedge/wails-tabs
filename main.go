@@ -18,7 +18,7 @@ func main() {
 	// Create application with options
 	err := wails.Run(&options.App{
 		Title:  "wails-tabs",
-		Width:  400,
+		Width:  800,
 		Height: 600,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
@@ -28,6 +28,10 @@ func main() {
 		Bind: []interface{}{
 			app,
 		},
+
+		// xdream edit
+		DisableResize: true,
+		Frameless:     true,
 	})
 
 	if err != nil {
