@@ -3,7 +3,7 @@ type SourcePickerProps = {
   onSourcePathChange: (sourcePath: string) => void
 }
 
-export default function SourcePicker({
+export function SourcePicker({
   sourcePath,
   onSourcePathChange,
 }: SourcePickerProps) {

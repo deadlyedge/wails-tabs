@@ -3,7 +3,7 @@ type TargetPickerProps = {
   onTargetPathChange: (targetPath: string) => void
 }
 
-export default function TargetPicker({
+export function TargetPicker({
   targetPath,
   onTargetPathChange,
 }: TargetPickerProps) {

@@ -3,6 +3,6 @@ type RulesProps = {
   setRules: (rules: { prefix: string; eventName: string }) => void
 }
 
-export default function Rules({ rules, setRules }: RulesProps) {
+export function Rules({ rules, setRules }: RulesProps) {
   return <div className="grow-3">Rules</div>
 }
