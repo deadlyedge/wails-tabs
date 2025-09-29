@@ -1,11 +1,10 @@
 import { useState } from "react"
-import "./App.css"
 import SourcePicker from "./views/sourcePicker"
 import TargetPicker from "./views/targetPicker"
 import Rules from "./views/rules"
 import Excute from "./views/excute"
 import { Monitor } from "./views/monitor"
-import { Separator } from "./components/ui/separator"
+import { Separator } from "@/components/ui/separator"
 
 function App() {
   const onSourcePathChange = (sourcePath: string) => {
