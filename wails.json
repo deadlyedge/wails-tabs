@@ -1,7 +1,7 @@
 {
   "$schema": "https://wails.io/schemas/config.v2.json",
-  "name": "wails-tabs",
-  "outputfilename": "wails-tabs",
+  "name": "photoTidyGo",
+  "outputfilename": "photoTidyGo",
   "frontend:install": "bun install",
   "frontend:build": "bun run build",
   "frontend:dev:watcher": "bun run dev",

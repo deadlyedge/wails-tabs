@@ -1,4 +1,4 @@
-module wails-tabs
+module photoTidyGo
 
 go 1.23
 
