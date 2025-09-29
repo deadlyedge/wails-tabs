@@ -6,6 +6,7 @@ import (
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
 	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
+	"github.com/wailsapp/wails/v2/pkg/options/windows"
 )
 
 //go:embed all:frontend/dist
@@ -32,6 +33,11 @@ func main() {
 		// xdream edit
 		DisableResize: true,
 		Frameless:     true,
+		Windows: &windows.Options{
+			ZoomFactor:           1.0,
+			IsZoomControlEnabled: false,
+			DisablePinchZoom:     true,
+		},
 	})
 
 	if err != nil {
